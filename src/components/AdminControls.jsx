@@ -29,7 +29,7 @@ export const BRANCHES = {
 
 // Height in px this bar takes up - Navbar's stickyOffset and the page's
 // top padding both need to match this so nothing sits underneath it.
-export const ADMIN_BAR_HEIGHT = 170;
+export const ADMIN_BAR_HEIGHT = 160;
 
 /**
  * Fixed control bar, deliberately styled dark/neutral so it never looks
