@@ -111,7 +111,7 @@ export default function App() {
               icon={site.ratingIcon}
               reviews={TESTIMONIALS[activeTheme]}
             />
-
+            <Analytics />
             <ContactForm
               title="Reserve"
               subtitle="Live preview - this form isn't wired to a backend."
@@ -125,6 +125,9 @@ export default function App() {
               hours={site.hours}
               social={site.social}
             />
+
+            <Analytics />
+            <SpeedInsights />
           </div>
         </SmoothScroll>
       </div>
